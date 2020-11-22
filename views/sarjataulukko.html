@@ -1,0 +1,24 @@
+<table>
+    <tr>
+        <th>Ottelumaara</th>
+        <th>Joukkue_id</th>
+        <th>Voittoja</th>
+        <th>Tappioita</th>
+        <th>Tasapeleja</th>
+        <th>Tehdyt maalit</th>
+        <th>Paastetyt_maalit</th>
+        <th>Pisteet</th>
+    </tr>
+    {{#each sarjataulukko}}
+        <tr>
+            <td>{{this.ottelumaara}}</td>
+            <td>{{this.joukkue_id}}</td>
+            <td>{{this.voittoja}}</td>
+            <td>{{this.tappioita}}</td>
+            <td>{{this.tasapeleja}}</td>
+            <td>{{this.tehdyt_maalit}}</td>
+            <td>{{this.paastetyt_maalit}}</td>
+            <td>{{this.pisteet}}</td>
+        </tr>
+    {{/each}}
+</table>

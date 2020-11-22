@@ -1,0 +1,18 @@
+<table>
+    <tr>
+        <th>Nimi</th>
+        <th>Osoite</th>
+        <th>Postinumero</th>
+        <th>Postitoimipaikka</th>
+        <th>Tyyppi</th>
+    </tr>
+    {{#each customers}}
+        <tr>
+            <td>{{this.nimi}}</td>
+            <td>{{this.osoite}}</td>
+            <td>{{this.postinro}}</td>
+            <td>{{this.postitmp}}</td>
+            <td>{{this.asty_avain}}</td>
+        </tr>
+    {{/each}}
+</table>

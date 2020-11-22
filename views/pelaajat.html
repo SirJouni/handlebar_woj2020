@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th>Sukunimi</th>
+        <th>Etunimi</th>
+        <th>Pelinumero</th>
+        <th>Joukkue_id</th>
+    </tr>
+    {{#each pelaajat}}
+        <tr>
+            <td>{{this.sukunimi}}</td>
+            <td>{{this.etunimi}}</td>
+            <td>{{this.pelinumero}}</td>
+            <td>{{this.joukkue_id}}</td>
+        </tr>
+    {{/each}}
+</table>
